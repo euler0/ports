@@ -1,7 +1,7 @@
 # $FreeBSD: head/x11-wm/compton/Makefile 345097 2014-02-19 14:45:19Z mat $
 
 PORTNAME=	compton
-PORTVERSION=	20130625
+PORTVERSION=	20140421
 PORTREVISION=	1
 CATEGORIES=	x11-wm
 
@@ -17,7 +17,7 @@ RUN_DEPENDS=	xprop:${PORTSDIR}/x11/xprop \
 USE_GITHUB=	yes
 GH_ACCOUNT=	chjj
 GH_TAGNAME=	${GH_COMMIT}
-GH_COMMIT=	b26bbc0
+GH_COMMIT=	ef58e4e
 
 USES=		gmake pkgconfig
 USE_XORG=	xcomposite xdamage xrandr xrender
